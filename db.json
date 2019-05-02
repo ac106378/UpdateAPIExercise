@@ -1,9 +1,19 @@
 {
-    "images": [
-        {
-            "id":   1,
-            "src":  "http://localhost:9000/images/kitten.jpeg",
-            "caption":  "kitteh"
-        }
-    ]
+  "images": [
+    {
+      "id": 1,
+      "src": "http://localhost:9000/images/kitten.jpg",
+      "caption": "kitteh"
+    },
+    {
+      "src": "http://localhost:9000/images/kitten2.jpeg",
+      "caption": "My new caption for this dumb image",
+      "id": 2
+    },
+    {
+      "src": "http://localhost:9000/images/kitten2.jpeg",
+      "caption": "My new caption for this dumb image",
+      "id": 3
+    }
+  ]
 }

@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Upload Page</title>
+    <script src="jquery-3.4.0.min.js"></script>
 </head>
 
 <body>
@@ -11,15 +12,10 @@
         <h1>Upload Page</h1>
     </header>
     <div>
-        <form id="formobject">
-            <legend>New Image Upload</legend>
-            <label for="caption">Caption</label>
-            <input type="text" name="caption"><br>
-            <input type="file" id="uploadfile"><br>
-            <button type="button" value="Submit" id="submitbutton">Submit</button>
-        </form>
+        <upload-form-template></upload-form-template>
     </div>
-    <script src="jquery-3.4.0.min.js"></script>
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.447.0.min.js"></script>
     <script src="upload.js"></script>
 </body>
+
 </html>
